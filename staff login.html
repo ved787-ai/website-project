@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Staff Login</title>
+    <link rel="stylesheet" href="admin-style.css">
+</head>
+
+<body>
+
+<div class="login-container">
+
+    <h2>Staff Login</h2>
+
+    <form onsubmit="return checkStaffLogin()">
+
+        <div class="input-box">
+            <label>Username</label>
+            <input type="text" id="username" placeholder="Enter staff username" required>
+        </div>
+
+        <div class="input-box">
+            <label>Password</label>
+            <input type="password" id="password" placeholder="Enter password" required>
+        </div>
+
+        <button type="submit" class="login-btn">Login</button>
+
+    </form>
+
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>
